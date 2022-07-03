@@ -3,7 +3,7 @@ import Link from 'next/link'
 const canceled = () => {
   return (
    <div className="success-wrapper">
-      <div className="success">
+      <div className="cancel">
         <p className="icon">
         </p>
         <h2>Sorry, Your Order was Cancelled !!</h2>
