@@ -672,8 +672,11 @@ padding: 6px;
 @media screen and (max-width:800px) {
   .hero-banner-container{
     height: 560px;
+    text-align: center;
+    padding-top: 10px;
   }
   .hero-banner-image{
+    display: none;
     width: 77%;
     height: 62%;
     top: -2%;
@@ -684,6 +687,7 @@ padding: 6px;
     margin-top: 80px;
   }
   .footer-banner-image{
+    display: none;
     width: 77%;
     left: 30%;
     top: 6%;
@@ -692,10 +696,10 @@ padding: 6px;
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
-    margin-left: 5px;
+    text-align: center;
   }
   .banner-desc .left p{
-    margin:18px;
+    text-align: center;
   }
   .banner-desc .right h3{
     font-size: 45px;
